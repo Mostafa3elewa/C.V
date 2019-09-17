@@ -1,28 +1,74 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 .violet-container {
 	background-color: #6734ff;
 	position: relative;
-	height: 600px;
-}
-.circular {
-	padding: 10px;
-	border-radius: 0 0 0 0;
 }
 .white-container {
 	background-color: whitesmoke;
+	position: relative;
+}
+
+.info-container {
+	background-color: whitesmoke;
+	padding: 5%;
+	position: relative;
 	text-align: center;
-	padding: 5rem;
-	height: 600px;
+}
+
+.info-container h1 {
+	color: #6734ff;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.info-container h1:first-child {
+	color: black;
+	font-weight: bolder;
+	text-align: left;
+	margin-left: 25%;
+}
+.personal-container {
+	line-height: 5rem;
+	text-align: LEFT;
+	padding: 0 20% 2% 30%;
+}
+
+.title-container {
+	padding: 0;
+	text-align: left;
 }
 
 img {
 	position: absolute;
-	top: 50px;
-	width: 150%;
+	top: 40px;
+	width: 130%;
 	height: 80%;
-	left: 5px;
-	border: 10px solid #6734ff;
+	left: 15px;
+	border: 15px solid #6734ff;
 	border-radius: 100%;
 	background-color: white;
 	z-index: 2;
 	padding: 15px;
+}
+
+.title-container p {
+	padding: 10px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 120%;
+	height: 150%;
+	margin-top: 50%;
+	background-color: #6734ff;
+	transform-origin: bottom;
+	transform: rotate(270deg);
+	text-align: center;
+	color: white;
+}
+.personal-container p {
+	color: white;
 }
