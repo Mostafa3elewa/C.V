@@ -1,0 +1,28 @@
+.violet-container {
+	background-color: #6734ff;
+	position: relative;
+	height: 600px;
+}
+.circular {
+	padding: 10px;
+	border-radius: 0 0 0 0;
+}
+.white-container {
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 5rem;
+	height: 600px;
+}
+
+img {
+	position: absolute;
+	top: 50px;
+	width: 150%;
+	height: 80%;
+	left: 5px;
+	border: 10px solid #6734ff;
+	border-radius: 100%;
+	background-color: white;
+	z-index: 2;
+	padding: 15px;
+}
