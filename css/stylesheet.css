@@ -33,44 +33,44 @@
 }
 img {
 	position: absolute;
-	top: 40px;
+	top: 10%;
 	width: 130%;
 	height: 80%;
-	left: 15px;
-	border: 15px solid #6734ff;
+	/* left: 15px; */
+	border: 1rem solid #6734ff;
 	border-radius: 100%;
 	background-color: white;
-	z-index: 2;
-	padding: 15px;
+	z-index: 1;
+	padding: 5%;
 }
 
 .personal-container {
 	line-height: 5rem;
 	text-align: LEFT;
-	padding: 0 20% 2% 30%;
+	padding: 0 10% 2% 25%;
 	/* position: relative; */
 }
 
 .title-container {
 	/* position: relative; */
 	padding: 0;
-	text-align: right;
+	text-align: center;
 	height: auto;
 	width: auto;
 }
 
 .title-container p {
 	position: absolute;
-	border-radius: 60px;
-	width: 244px;
-	height: 48px;
+	border-radius: 26px;
+	width: 127%;
+	height: 15%;
 	background-color: #6734ff;
 	transform-origin: bottom;
 	transform: rotate(270deg);
 	text-align: center;
 	color: white;
-	margin-top: 101px;
-	padding-top: 14px;
+	margin-top: 58%;
+	padding-top: 7%;
 }
 
 .personal-container p {
@@ -86,12 +86,12 @@ img {
 
 .education-container p {
 	position: absolute;
-	margin-top: 111px;
-	padding-top: 16px;
-	margin-left: 30%;
+	margin-top: 69%;
+	padding-top: 7%;
+	margin-left: 29%;
 	border-radius: 60px;
-	width: 140px;
-	height: 52px;
+	width: 70%;
+	height: 14%;
 	background-color: white;
 	transform-origin: bottom;
 	transform: rotate(270deg);
@@ -100,7 +100,13 @@ img {
 }
 
 .education-information-container {
-	/* line-height: 5rem; */
+	
 	text-align: left;
 	padding: 5% 20% 2% 30%;
+}
+.education-information-container p {
+	color: #6734ff;
+}
+span{
+	margin-left: 39%;
 }
