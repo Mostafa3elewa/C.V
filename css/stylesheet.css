@@ -90,9 +90,9 @@
 img {
   position: absolute;
   top: 13%;
-  width: 123%;
+  left: 12%;
+  width: 103.7%;
   height: 66%;
-  /* left: 15px; */
   border: 1rem solid #6734ff;
   border-radius: 100%;
   background-color: white;
