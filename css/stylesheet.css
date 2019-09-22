@@ -103,7 +103,7 @@ img {
 .personal-container {
   line-height: 5rem;
   text-align: LEFT;
-  padding: 0 10% 2% 25%;
+  padding: 2% 10% 2% 25%;
 }
 
 .title-container {
@@ -270,7 +270,7 @@ span {
 
 .projects-information-container {
   text-align: left;
-  padding: 5% 20% 2% 30%;
+  padding: 5% 15% 2% 35%;
 }
 
 .projects-information-container a {
@@ -303,4 +303,7 @@ footer {
   text-align: center;
   line-height: 0.5rem;
   margin-top: 1%;
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
 }
