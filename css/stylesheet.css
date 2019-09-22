@@ -8,8 +8,9 @@
   position: fixed;
   z-index: 99;
   float: right;
-  left: 66%;
+  left: 60%;
   top: 8%;
+  margin-top: 1%;
 }
 
 .nav-link {
@@ -160,6 +161,7 @@ img {
 
 .education-information-container p {
   color: #6734ff;
+  margin-left: -16%;
 }
 
 span {
