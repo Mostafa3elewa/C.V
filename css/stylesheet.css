@@ -1,112 +1,297 @@
 * {
-	font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.nav {
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed;
+  z-index: 99;
+  float: right;
+  left: 66%;
+  top: 8%;
+}
+.nav-link {
+  position: relative;
+  top: -56px;
+  color: black;
+}
+
+.active {
+  background-color: #6734ff;
+  border-radius: 22px;
+  color: #ffffff;
+}
+.active:hover {
+  background-color: #ffffff;
+  color: #6734ff;
+}
+
+#information {
+  background-color: #6734ff;
+  color: white;
+  border-radius: 22px;
+  width: 17%;
+  height: 11%;
+  margin-left: 55%;
+  padding-top: 0.7%;
+}
+
+#social-media {
+  position: relative;
+  transform: rotate(90deg);
+  top: -26%;
+  left: 51%;
+  color: #6734ff;
+}
+
+#social-media i {
+  color: #6734ff;
+  padding-right: 1%;
+
+  padding-left: 1%;
 }
 
 .violet-container {
-	background-color: #6734ff;
-	/* position: relative; */
+  background-color: #6734ff;
 }
 
 .white-container {
-	background-color: whitesmoke;
-	/* position: relative; */
+  background-color: whitesmoke;
 }
 
 .info-container {
-	background-color: whitesmoke;
-	padding: 5%;
-	/* position: relative; */
-	text-align: center;
+  background-color: whitesmoke;
+  padding: 5%;
+  padding-bottom: 0%;
+  text-align: center;
 }
 
 .info-container h1 {
-	color: #6734ff;
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+  color: #6734ff;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.info-container h1:first-child {
-	color: black;
-	font-weight: bolder;
-	text-align: left;
-	margin-left: 25%;
+.info-container h3 {
+  margin-left: 9%;
 }
+
+#im {
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 25%;
+}
+
 img {
-	position: absolute;
-	top: 10%;
-	width: 130%;
-	height: 80%;
-	/* left: 15px; */
-	border: 1rem solid #6734ff;
-	border-radius: 100%;
-	background-color: white;
-	z-index: 1;
-	padding: 5%;
+  position: absolute;
+  top: 10%;
+  width: 130%;
+  height: 80%;
+  /* left: 15px; */
+  border: 1rem solid #6734ff;
+  border-radius: 100%;
+  background-color: white;
+  z-index: 1;
+  padding: 5%;
 }
 
 .personal-container {
-	line-height: 5rem;
-	text-align: LEFT;
-	padding: 0 10% 2% 25%;
-	/* position: relative; */
+  line-height: 5rem;
+  text-align: LEFT;
+  padding: 0 10% 2% 25%;
 }
 
 .title-container {
-	/* position: relative; */
-	padding: 0;
-	text-align: center;
-	height: auto;
-	width: auto;
+  padding: 0;
+  text-align: center;
+  height: auto;
+  width: auto;
 }
 
 .title-container p {
-	position: absolute;
-	border-radius: 26px;
-	width: 127%;
-	height: 15%;
-	background-color: #6734ff;
-	transform-origin: bottom;
-	transform: rotate(270deg);
-	text-align: center;
-	color: white;
-	margin-top: 58%;
-	padding-top: 7%;
+  position: absolute;
+  border-radius: 22px;
+  width: 151%;
+  height: 15%;
+  background-color: #6734ff;
+  transform-origin: bottom;
+  transform: rotate(270deg);
+  text-align: center;
+  color: white;
+  margin-top: 58%;
+  padding-top: 7%;
+  margin-left: -10%;
 }
 
 .personal-container p {
-	/* position: absolute; */
-	color: white;
+  /* position: absolute; */
+  color: white;
 }
 
 .education-container {
-	position: relative;
-	padding: 0;
-	text-align: left;
+  position: relative;
+  padding: 0;
+  text-align: left;
 }
 
 .education-container p {
-	position: absolute;
-	margin-top: 69%;
-	padding-top: 7%;
-	margin-left: 29%;
-	border-radius: 60px;
-	width: 70%;
-	height: 14%;
-	background-color: white;
-	transform-origin: bottom;
-	transform: rotate(270deg);
-	text-align: center;
-	color: #6734ff;
+  position: absolute;
+  margin-top: 69%;
+  padding-top: 7%;
+  margin-left: 29%;
+  border-radius: 22px;
+  width: 70%;
+  height: 14%;
+  background-color: white;
+  transform-origin: bottom;
+  transform: rotate(270deg);
+  text-align: center;
+  color: #6734ff;
 }
 
 .education-information-container {
-	
-	text-align: left;
-	padding: 5% 20% 2% 30%;
+  text-align: left;
+  padding: 5% 20% 2% 30%;
 }
+
 .education-information-container p {
-	color: #6734ff;
+  color: #6734ff;
 }
-span{
-	margin-left: 39%;
+
+span {
+  margin-left: 39%;
+}
+
+.skills-title-container {
+  padding: 0;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.skills-info-container {
+  line-height: 4rem;
+  text-align: center;
+  padding: 5% 10% 5% 14%;
+}
+
+.skills-info-container h3 {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.skills-title-container p {
+  position: absolute;
+  margin-top: 102%;
+  padding-top: 7%;
+  margin-left: 30%;
+  border-radius: 22px;
+  width: 62%;
+  height: 9%;
+  background-color: #6734ff;
+  transform-origin: bottom;
+  transform: rotate(270deg);
+  text-align: center;
+  color: #ffffff;
+}
+
+.skills-container {
+  position: relative;
+  float: left;
+  margin-left: 19%;
+  height: 49%;
+  width: 5%;
+  border-radius: 5%;
+}
+
+.skills-container p {
+  background: #ffffff;
+  color: #6734ff;
+  margin-left: -13px;
+  margin-right: -340%;
+  border-radius: 25px;
+  position: relative;
+  font-weight: bold;
+  padding-top: 15%;
+
+  padding-bottom: 24%;
+
+  margin-bottom: 0px;
+}
+
+.skills-container1 {
+  position: relative;
+  float: right;
+  margin-right: 28%;
+  height: 49%;
+  width: 22%;
+}
+
+.skills-container1 p {
+  background: #ffffff;
+  color: #6734ff;
+  padding-left: 5%;
+  padding-right: 9px;
+  line-height: 3rem;
+  border-radius: 25px;
+  position: relative;
+  margin-left: -6%;
+  margin-right: -8%;
+  font-weight: bold;
+}
+
+.projects-title-container {
+  position: relative;
+  padding: 0;
+  text-align: left;
+}
+
+.projects-title-container p {
+  position: absolute;
+  margin-top: 69%;
+  padding-top: 9%;
+  margin-left: 29%;
+  border-radius: 22px;
+  width: 70%;
+  height: 14%;
+  background-color: white;
+  transform-origin: bottom;
+  transform: rotate(270deg);
+  text-align: center;
+  color: #6734ff;
+}
+.projects-information-container {
+  text-align: left;
+  padding: 5% 20% 2% 30%;
+}
+
+.projects-information-container a {
+  background-color: #6734ff;
+  color: #ffffff;
+  line-height: 10rem;
+  padding: 5%;
+}
+#dice {
+  padding-left: 11%;
+  padding-right: 10.5%;
+}
+.heart-icon {
+  color: white;
+  background-color: palevioletred;
+  float: right;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  margin-left: -1px;
+  margin-right: 219px;
+  margin-bottom: 0px;
+  margin-top: 27px;
+}
+footer {
+  text-align: center;
+  line-height: 0.5rem;
+  margin-top: 1%;
 }

@@ -12,34 +12,49 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Saira+Stencil+One&display=swap" rel="stylesheet">
   <title>C.V</title>
 </head>
+
 <body>
+
   <div class="container">
-    <ul class=" nav justify-content-end ">
-      <li class=" nav-item dropdown "> <a href="#" class="nav-link dropdown-toggle " role="button">About me</a></li>
-      <li class="nav-item" role="button"> <a class="nav-link active" href="http://"> Download here</a> </li>
-    </ul>
-  </div>
-  <div class="container">
-    
+
     <div class="row">
       <div class="col-2 col-md-2 col-sm-2 violet-container photo-container">
         <img src="Images/photo_2019-09-15_13-08-06.png" alt="personal-photo">
       </div>
       <div class="col-10 col-md-10 col-sm-10 white-container info-container">
-        <h1>I'M</h1>
+        <ul class=" nav justify-content-end ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Me
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#personal-information">Personal Information</a>
+              <a class="dropdown-item" href="#education">Education</a>
+              <a class="dropdown-item" href="#skills"> Skills</a>
+              <a class="dropdown-item" href="#projects"> projects</a>
+
+            </div>
+          </li>
+          <li class="nav-item" role="button"> <a class="nav-link active" href="http://"> Download here</a> </li>
+        </ul>
+        <h1 id="im">I'M</h1>
         <br>
         <h1>MOSTAFA ELEWA</h1>
         <br>
         <h3>FULL STACK WEB DEVELOPER </h3>
+        <br><br><br>
+        <p id="information">Information >></p>
+        <p id="social-media">follow me on <a target="blank" href="https://www.facebook.com/3elewacr7"><i
+              class="fab fa-facebook-f"></i></a> <a target="blank"
+            href="https://www.linkedin.com/in/mostafa-elewa-3b20ba13a/"><i class="fab fa-linkedin-in"></i></a></p>
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="personal-information">
     <div class="row">
       <div class="col-2 col-md-2 col-sm-2  white-container title-container">
-        <!-- <div class="inner"> -->
-          <p>PERSONAL INFORMATION</p>
-        <!-- </div> -->
+        <p>PERSONAL INFORMATION</p>
       </div>
       <div class="col-10 col-md-10 col-sm-10 violet-container personal-container">
         <p><i class="fas fa-globe-africa"></i> 344A, Street 15, Hadayek El Ahram,Giza</p>
@@ -48,20 +63,68 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="education">
     <div class="row">
       <div class="col-2 col-md-2 col-sm-2 violet-container education-container">
-        <!-- <div class="inner"> -->
-          <p>EDUCATION</p>
-        <!-- </div> -->
+        <p> EDUCATION </p>
       </div>
       <div class="col-10 col-md-10 col-sm-10 white-container education-information-container">
-        <p>Ecole Experimentale Francaise<br>Generale Secondary Certificate <br>  <span>2000-2013</span> </p>
+        <p>Ecole Experimentale Francaise<br>Generale Secondary Certificate <br> <span>2000-2013</span> </p>
         <br><br><br>
-        <p>Faculty |Of Engineering Ain Shams University <br> 3rd Year of communication Engineering <br> <span>2013-2021</span></p>
+        <p>Faculty Of Engineering Ain Shams University <br> 3rd Year of communication Engineering <br>
+          <span>2013-2021</span></p>
       </div>
     </div>
   </div>
+
+  <div class="container" id="skills">
+    <div class="row">
+      <div class="col-2 col-md-2 col-sm-2  white-container skills-title-container">
+        <p> SKILLS </p>
+      </div>
+      <div class="col-10 col-md-10 col-sm-10 violet-container skills-info-container">
+        <h3>Web Development using</h3>
+        <div class="skills-container">
+          <p>
+            Html <br>
+            Css <br>
+            Bootstrap <br>
+            JavaScript <br>
+            Jquery
+          </p>
+        </div>
+        <div class="skills-container1">
+          <p>
+            Node js <br>
+            Express <br>
+            API <br>
+            RESTful API <br>
+            Mongodb <br>
+            SQL <br>
+            Authentication
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="projects">
+    <div class="row">
+      <div class="col-2 col-md-2 col-sm-2 violet-container projects-title-container">
+        <p> PROJECTS </p>
+      </div>
+      <div class="col-10 col-md-10 col-sm-10 white-container projects-information-container">
+        <i class="fas fa-heart heart-icon"></i>
+        <a href="https://stark-springs-63567.herokuapp.com/" target="blank">To Do List >></a>
+
+        <br>
+        <i class="fas fa-heart heart-icon"></i>
+
+        <a href="https://mostafa3elewa.github.io/Dice/" target="blank" id="dice"> Dice >></a>
+      </div>
+    </div>
+  </div>
+
 
 
 
@@ -77,5 +140,12 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
 </body>
+
+<footer>
+  <p>©.UI designy by <a href="https://drive.google.com/file/d/1-fts9QHCvDncJczlrD5bfRZ1ucXucupx/view" target="blank">Aya
+      SINGER</a></p>
+  <br>
+  <p>©Made By MOSTAFA ELEWA</p>
+</footer>
 
 </html>
