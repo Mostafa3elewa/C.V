@@ -3,13 +3,15 @@
 }
 
 .nav {
-  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
   position: fixed;
   z-index: 99;
   float: right;
   left: 66%;
   top: 8%;
 }
+
 .nav-link {
   position: relative;
   top: -56px;
@@ -21,6 +23,7 @@
   border-radius: 22px;
   color: #ffffff;
 }
+
 .active:hover {
   background-color: #ffffff;
   color: #6734ff;
@@ -85,9 +88,9 @@
 
 img {
   position: absolute;
-  top: 10%;
-  width: 130%;
-  height: 80%;
+  top: 13%;
+  width: 123%;
+  height: 66%;
   /* left: 15px; */
   border: 1rem solid #6734ff;
   border-radius: 100%;
@@ -253,15 +256,16 @@ span {
   margin-top: 69%;
   padding-top: 9%;
   margin-left: 29%;
-  border-radius: 22px;
+  border-radius: 26px;
   width: 70%;
-  height: 14%;
+  height: 13%;
   background-color: white;
   transform-origin: bottom;
   transform: rotate(270deg);
   text-align: center;
   color: #6734ff;
 }
+
 .projects-information-container {
   text-align: left;
   padding: 5% 20% 2% 30%;
@@ -273,10 +277,12 @@ span {
   line-height: 10rem;
   padding: 5%;
 }
+
 #dice {
-  padding-left: 11%;
+  padding-left: 10%;
   padding-right: 10.5%;
 }
+
 .heart-icon {
   color: white;
   background-color: palevioletred;
@@ -285,11 +291,12 @@ span {
   padding-left: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
-  margin-left: -1px;
   margin-right: 219px;
   margin-bottom: 0px;
-  margin-top: 27px;
+  margin-left: -1%;
+  margin-top: 7%;
 }
+
 footer {
   text-align: center;
   line-height: 0.5rem;
