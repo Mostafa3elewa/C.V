@@ -8,7 +8,7 @@
   position: fixed;
   z-index: 99;
   float: right;
-  left: 60%;
+  left: 69%;
   top: 8%;
   margin-top: 1%;
 }
@@ -281,7 +281,7 @@ span {
 }
 
 #dice {
-  padding-left: 10%;
+  padding-left: 10.5%;
   padding-right: 10.5%;
 }
 
@@ -289,14 +289,10 @@ span {
   color: white;
   background-color: palevioletred;
   float: right;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  margin-right: 219px;
-  margin-bottom: 0px;
-  margin-left: -1%;
-  margin-top: 7%;
+  padding: 5px;
+  position: relative;
+  right: 57%;
+  top: 8.1%;
 }
 
 footer {
@@ -306,4 +302,21 @@ footer {
 }
 footer p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 959px) {
+  .projects-information-container a {
+    line-height: 7rem;
+  }
+  .heart-icon {
+    right: 51%;
+    top: 3%;
+  }
+  #dice {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+  }
+  .projects-title-container p {
+    padding-top: 6%;
+  }
 }
