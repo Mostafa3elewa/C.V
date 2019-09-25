@@ -2,10 +2,8 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* @media only screen and (min-width: 960px) { */
 .nav {
   transition: 0.4s;
-  /* Adds a transition effect when the padding is decreased */
   position: fixed;
   z-index: 99;
   float: right;
@@ -29,16 +27,6 @@
 .active:hover {
   background-color: #ffffff;
   color: #6734ff;
-}
-
-#information {
-  background-color: #6734ff;
-  color: white;
-  border-radius: 22px;
-  width: 17%;
-  height: 11%;
-  margin-left: 55%;
-  padding-top: 0.7%;
 }
 
 #social-media {
@@ -304,12 +292,77 @@ footer {
 footer p {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* } */
+
+/*/////////////////////////////////// T.V Edit ////////////////////////////////////////////*/
+
+@media only screen and (max-width: 1920px) {
+  .nav {
+    left: 64%;
+    top: 5%;
+  }
+  .heart-icon {
+    right: 58%;
+    top: 8.3%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav {
+    left: 66%;
+  }
+  .heart-icon {
+    right: 51.6%;
+    top: 9.3%;
+  }
+
+  img {
+    left: 4%;
+    width: 119.7%;
+  }
+
+  #im {
+    margin-left: 22%;
+  }
+
+  .info-container h3 {
+    margin-left: 10%;
+  }
+
+  #social-media {
+    top: -41%;
+    left: 53%;
+  }
+
+  .title-container p {
+    height: 13%;
+    margin-top: 72%;
+  }
+
+  #dice {
+    padding-left: 11.8%;
+    padding-right: 11.8%;
+  }
+
+  .projects-title-container p {
+    margin-top: 85%;
+    padding-top: 8%;
+    margin-left: 31%;
+    height: 12%;
+  }
+}
+
 /*/////////////////////////////////// Tab Edit ////////////////////////////////////////////*/
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 991px) {
   p {
     margin-top: -9px;
   }
+
+  .title-container p {
+    margin-top: 61%;
+    padding-top: 5%;
+    margin-left: -14%;
+  }
+
   .projects-information-container a {
     line-height: 7rem;
   }
@@ -336,8 +389,6 @@ footer p {
     padding-top: 27%;
   }
   .nav {
-    left: 69%;
-    top: 8%;
     left: 60%;
     top: 4.8%;
   }
@@ -374,5 +425,24 @@ footer p {
   .heart-icon {
     right: 41.2%;
     top: 4%;
+  }
+  footer {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .personal-container {
+    padding: 2% 5% 2% 4%;
+  }
+  .education-information-container {
+    padding: 5% 0% 2% 12%;
+  }
+  .projects-information-container {
+    padding: 5% 1% 2% 19%;
+  }
+
+  .skills-info-container {
+    padding: 5% 7% 5% 4%;
   }
 }
