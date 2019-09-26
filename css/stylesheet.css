@@ -29,6 +29,7 @@
 .active:hover {
   background-color: #ffffff;
   color: #6734ff;
+  transition: 0.8s;
 }
 
 #information {
