@@ -2,10 +2,8 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* @media only screen and (min-width: 960px) { */
 .nav {
   transition: 0.4s;
-  /* Adds a transition effect when the padding is decreased */
   position: fixed;
   z-index: 99;
   float: right;
@@ -30,16 +28,6 @@
   background-color: #ffffff;
   color: #6734ff;
   transition: 0.8s;
-}
-
-#information {
-  background-color: #6734ff;
-  color: white;
-  border-radius: 22px;
-  width: 17%;
-  height: 11%;
-  margin-left: 55%;
-  padding-top: 0.7%;
 }
 
 #social-media {
@@ -305,12 +293,77 @@ footer {
 footer p {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* } */
+
+/*/////////////////////////////////// T.V Edit ////////////////////////////////////////////*/
+
+@media only screen and (max-width: 1920px) {
+  .nav {
+    left: 64%;
+    top: 5%;
+  }
+  .heart-icon {
+    right: 58%;
+    top: 8.3%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav {
+    left: 66%;
+  }
+  .heart-icon {
+    right: 51.6%;
+    top: 9.3%;
+  }
+
+  img {
+    left: 4%;
+    width: 119.7%;
+  }
+
+  #im {
+    margin-left: 22%;
+  }
+
+  .info-container h3 {
+    margin-left: 10%;
+  }
+
+  #social-media {
+    top: -41%;
+    left: 53%;
+  }
+
+  .title-container p {
+    height: 13%;
+    margin-top: 72%;
+  }
+
+  #dice {
+    padding-left: 11.8%;
+    padding-right: 11.8%;
+  }
+
+  .projects-title-container p {
+    margin-top: 85%;
+    padding-top: 8%;
+    margin-left: 31%;
+    height: 12%;
+  }
+}
+
 /*/////////////////////////////////// Tab Edit ////////////////////////////////////////////*/
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 991px) {
   p {
     margin-top: -9px;
   }
+
+  .title-container p {
+    margin-top: 61%;
+    padding-top: 5%;
+    margin-left: -14%;
+  }
+
   .projects-information-container a {
     line-height: 7rem;
   }
@@ -337,8 +390,6 @@ footer p {
     padding-top: 27%;
   }
   .nav {
-    left: 69%;
-    top: 8%;
     left: 60%;
     top: 4.8%;
   }
@@ -375,5 +426,335 @@ footer p {
   .heart-icon {
     right: 41.2%;
     top: 4%;
+  }
+  footer {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .personal-container {
+    padding: 2% 5% 2% 4%;
+  }
+  .education-information-container {
+    padding: 5% 0% 2% 12%;
+  }
+  .projects-information-container {
+    padding: 5% 1% 2% 19%;
+  }
+
+  .skills-info-container {
+    padding: 5% 7% 5% 4%;
+  }
+
+  .title-container p {
+    width: 138%;
+    height: 14%;
+  }
+
+  img {
+    left: 0%;
+  }
+  .projects-title-container p {
+    margin-left: 27%;
+    height: 14%;
+    margin-top: 52%;
+  }
+
+  .title-container p {
+    margin-top: 57%;
+    margin-left: -9%;
+  }
+  img {
+    width: 139.7%;
+  }
+  .nav {
+    left: 50%;
+  }
+
+  .education-container p {
+    margin-top: 55%;
+    padding-top: 5%;
+    margin-left: 24%;
+  }
+}
+
+/* ////////////////////////////mobile adjstement//////////////////// */
+@media only screen and (max-width: 575px) {
+  #dice {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+  .heart-icon {
+    right: 44.2%;
+  }
+
+  .skills-title-container p {
+    padding-top: 5%;
+  }
+
+  .title-container p {
+    margin-top: 54%;
+  }
+  img {
+    width: 131.7%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  * {
+    font-size: 0.79rem;
+  }
+
+  .col-4 {
+    max-width: 28%;
+    font-size: medium;
+  }
+
+  .skills-info-container {
+    /* padding: 5% 7% 5% 4%; */
+    padding: 5% 5% 5% 4%;
+  }
+  .projects-information-container {
+    /* padding: 5% 1% 2% 19%; */
+    padding: 5% 1% 2% 11%;
+  }
+  .title-container p {
+    /* width: 138%; */
+    /* height: 14%; */
+    width: 213%;
+    height: 10%;
+  }
+  .title-container p {
+    /* margin-left: -9%; */
+    margin-left: -37%;
+  }
+  .personal-container {
+    /* padding: 2% 5% 2% 4%; */
+    padding: 2% 0% 2% 5%;
+  }
+
+  img {
+    /* top: 11%; */
+    /* height: 74%; */
+    top: 31%;
+    height: 48%;
+  }
+  .title-container p {
+    /* padding-top: 5%; */
+    padding-top: 11%;
+  }
+
+  img {
+    /* width: 131.7%; */
+    width: 136.7%;
+  }
+  .title-container p {
+    /* margin-top: 54%; */
+    margin-top: 145%;
+  }
+
+  .title-container {
+    max-width: 28%;
+  }
+
+  .photo-container {
+    max-width: 28%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  img {
+    top: 23%;
+    height: 57%;
+  }
+  .title-container p {
+    width: 160%;
+    height: 14%;
+  }
+  .title-container p {
+    margin-top: 81%;
+  }
+  .title-container p {
+    padding-top: 9%;
+  }
+  .title-container p {
+    margin-left: -17%;
+  }
+  .skills-info-container {
+    padding: 5% 4% 5% 5%;
+  }
+
+  .skills-container {
+    width: 7%;
+  }
+  .projects-information-container a {
+    position: relative;
+    left: 11%;
+  }
+  .heart-icon {
+    top: 3%;
+  }
+
+  .skills-title-container p {
+    margin-top: 124%;
+    margin-left: 18%;
+    width: 94%;
+  }
+
+  .projects-title-container p {
+    width: 105%;
+  }
+
+  .projects-title-container p {
+    margin-left: 10%;
+    margin-top: 65%;
+  }
+
+  .projects-information-container a {
+    padding: 7%;
+  }
+
+  .heart-icon {
+    right: 35.2%;
+  }
+  #dice {
+    padding-left: 13.15%;
+    padding-right: 13.15%;
+  }
+
+  .skills-container1 > p:nth-child(1) {
+    line-height: 2.5rem;
+  }
+
+  .skills-container {
+    line-height: 4.3;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .title-container p {
+    margin-top: 71%;
+  }
+  .title-container p {
+    padding-top: 6%;
+  }
+  .heart-icon {
+    right: 39.2%;
+  }
+  #dice {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  .heart-icon {
+    top: 2%;
+  }
+  .title-container p {
+    margin-left: -31%;
+  }
+  .title-container p {
+    width: 193%;
+  }
+
+  p {
+    margin-top: -3px;
+  }
+
+  .education-container p {
+    margin-left: 14%;
+  }
+
+  .education-container p {
+    width: 101%;
+    height: 16%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .title-container p {
+    /* margin-top: 81%; */
+    margin-top: 71%;
+  }
+  .title-container p {
+    /* padding-top: 9%; */
+    padding-top: 6%;
+  }
+  .heart-icon {
+    /* right: 35.2%; */
+    right: 39.2%;
+  }
+  #dice {
+    /* padding-left: 13.15%; */
+    /* padding-right: 13.15%; */
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  .heart-icon {
+    /* top: 3%; */
+    top: 2%;
+  }
+  .title-container p {
+    /* margin-left: -17%; */
+    margin-left: -31%;
+  }
+  .title-container p {
+    /* width: 160%; */
+    width: 193%;
+  }
+
+  p {
+    /* margin-top: -9px; */
+    margin-top: -3px;
+  }
+
+  .education-container p {
+    /* margin-left: 24%; */
+    margin-left: 14%;
+  }
+
+  .education-container p {
+    /* width: 70%; */
+    /* height: 14%; */
+    width: 101%;
+    height: 16%;
+  }
+
+  .projects-title-container p {
+    /* padding-top: 4%; */
+    padding-top: 6%;
+  }
+
+  .skills-title-container p {
+    /* padding-top: 5%; */
+    padding-top: 7%;
+  }
+
+  .education-container p {
+    /* padding-top: 5%; */
+    padding-top: 7%;
+  }
+
+  .title-container p {
+    /* padding-top: 6%; */
+    padding-top: 9%;
+  }
+  #dice {
+    /* padding-left: 12.5%; */
+    /* padding-right: 12.5%; */
+    padding-left: 13.3%;
+    padding-right: 13.3%;
+  }
+  .heart-icon {
+    /* top: 2%; */
+    top: 3%;
+  }
+  .heart-icon {
+    /* right: 39.2%; */
+    right: 35.2%;
+  }
+  img {
+    top: 27%;
   }
 }
